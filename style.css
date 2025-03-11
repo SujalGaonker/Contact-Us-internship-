@@ -1,0 +1,159 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #c2e9fb, #a1c4fd);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    padding: 10px;
+}
+
+div.head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+a.contact {
+    padding: 10px;
+    background-color: rgb(62, 185, 226);
+}
+
+div a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+
+a:hover {
+
+    padding: 10px;
+    background-color: rgb(62, 185, 226);
+}
+
+input {
+    margin: 15px;
+    margin-left: 15px;
+    background-color: rgb(254, 239, 239);
+    border-radius: 2pc;
+    padding: 10px;
+    border: none;
+    width: 300px;
+}
+
+textarea {
+    margin-left: 15px;
+    background-color: rgb(254, 239, 239);
+    border-radius: 0.3pc;
+    width: 300px;
+
+}
+
+div.notch {
+    background-color: rgb(206, 236, 243);
+    opacity: 1.0;
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    border: 2px solid gainsboro;
+    border-radius: 1pc;
+    padding: 20px;
+}
+
+div.notch img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+h1 {
+    background-color: rgb(78, 78, 152);
+    color: rgb(242, 242, 244);
+    padding: 10px;
+}
+
+div.main {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    align-items: center;
+
+}
+
+p.head {
+    padding: 20px;
+    color: white;
+    margin-top: 1px;
+    border-top-left-radius: 1pc;
+    border-top-right-radius: 1pc;
+    background-color: rgb(34, 34, 188);
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+div.button {
+    margin: 50px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+button {
+    border: none;
+    background-color: rgb(109, 196, 234);
+    padding: 10px;
+    margin: auto;
+    border-radius: 2pc;
+}
+
+button:hover {
+    border: 2px solid white;
+}
+
+div.detail {
+    margin-left: auto;
+    display: inline-block;
+    position: relative;
+    text-align: right;
+}
+
+footer {
+    background-color: #f8f9fa;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+footer p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0077b6;
+}
